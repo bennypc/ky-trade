@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Timer from './Timer';
 import './App.css';
 
 class LambdaDemo extends Component {
@@ -37,7 +38,11 @@ class LambdaDemo extends Component {
 
 class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Timer />
+      </div>
+    );
   }
 }
 
