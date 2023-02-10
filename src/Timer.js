@@ -8,8 +8,8 @@ const Timer = () => {
     const startTime = new Date(2023, 1, 2); // February 2, 2023
     const interval = setInterval(() => {
       const now = new Date();
-      setSeconds((now - startTime) / 1000);
-      setMilliseconds((now - startTime) / 10);
+      setSeconds((now - startTime) / 10000);
+      setMilliseconds((now - startTime) / 11);
     }, 1000);
 
     return () => clearInterval(interval);
