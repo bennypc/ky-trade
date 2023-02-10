@@ -36,7 +36,7 @@ const Timer = () => {
           </TextTransition>
         </h1>
         <h1 className="inline font-bold text-xl lg:text-4xl mt-16  text-center float-right	">
-          &nbsp; dicks ridden by messy
+          &nbsp; times will has rode ducks corkscrew dick
         </h1>
       </div>
     </div>
